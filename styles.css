@@ -31,7 +31,8 @@ ul > li {
   font-size: 1.25em;
 }
 
-section, #scoring {
+section,
+#scoring {
   font-variant: small-caps;
 }
 
