@@ -3,7 +3,8 @@
 ul > li,
 section,
 footer,
-address {
+address,
+.standard_text {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
