@@ -1,26 +1,21 @@
-.header_1_2,
-#scoring,
-ul > li,
-section,
-footer,
-address,
-.standard_text {
+* {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header_1_2 {
+  border-radius: 1em;
   color: #f81981;
   font-weight: bolder;
   text-align: center;
   font-variant: small-caps;
+  background-image: linear-gradient(45deg, #ffddef 15%, #ffc0cb 85%);
 }
 
-.standard_text,
+.set_margin,
 img,
-#scoring,
 section,
 footer {
-  margin-left: 1em;
+  margin: 1em;
 }
 
 ul > li {
@@ -30,6 +25,7 @@ ul > li {
 #scoring {
   font-weight: 900;
   font-size: 1.25em;
+  clear: both;
 }
 
 section,
@@ -47,7 +43,7 @@ a:visited {
 
 a:hover,
 a:focus {
-  color: #51800b;
+  color: #2626ffb2;
   font-size: 1.25em;
 }
 
@@ -55,4 +51,29 @@ footer {
   margin-top: 2em;
   font-size: 1em;
   font-weight: 400;
+}
+
+article {
+  column-count: 3;
+  column-gap: 35px;
+  column-rule: 0.1em solid #040491;
+}
+
+.cas_headers {
+  background-image: linear-gradient(45deg, #2626ffb2 25%, #ffc0cb 75%);
+  font-variant: small-caps;
+  text-align: center;
+  margin: 0.5em 0.5em;
+  border-radius: 1em;
+}
+
+#pavilion {
+  width: 400px;
+  border: 1em groove #ffc0cb;
+  float: left;
+}
+
+#cas_burg {
+  width: 400px;
+  border: 1em groove #2626ffb2;
 }
