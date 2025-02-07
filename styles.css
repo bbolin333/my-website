@@ -2,39 +2,26 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.header_1_2 {
+/* h1 and h2 for all html pages */
+.main_headers {
   border-radius: 1em;
-  color: #f81981;
+  color: #000000;
   font-weight: bolder;
   text-align: center;
-  font-variant: small-caps;
-  background-image: linear-gradient(45deg, #ffddef 15%, #ffc0cb 85%);
+  background-image: linear-gradient(45deg, #2626ffb2 25%, #ffc0cb 75%);
 }
 
+/* currently affecting index html */
 .set_margin,
-img,
-section,
-footer {
+section {
   margin: 1em;
 }
 
-ul > li {
-  font-weight: 500;
-}
-
-#scoring {
-  font-weight: 900;
-  font-size: 1.25em;
-  clear: both;
-}
-
 section,
-#scoring {
+.main_headers,
+#article_list,
+#intro {
   font-variant: small-caps;
-}
-
-section h2 {
-  margin-bottom: -0.5em;
 }
 
 a:visited {
@@ -47,33 +34,55 @@ a:focus {
   font-size: 1.25em;
 }
 
+/* TRBL */
 footer {
-  margin-top: 2em;
+  padding: 2.85em 0em 0em 0em;
   font-size: 1em;
   font-weight: 400;
+  text-align: left;
 }
 
 article {
   column-count: 3;
   column-gap: 35px;
   column-rule: 0.1em solid #040491;
+  border: 0.01em dotted #000000;
+  padding: 1em;
 }
 
-.cas_headers {
-  background-image: linear-gradient(45deg, #2626ffb2 25%, #ffc0cb 75%);
-  font-variant: small-caps;
-  text-align: center;
-  margin: 0.5em 0.5em;
-  border-radius: 1em;
+.main_images {
+  width: 32%;
+  border: 0.2em groove #000000;
+  border-radius: 0.5em;
 }
 
-#pavilion {
-  width: 400px;
-  border: 1em groove #ffc0cb;
+/* cascadia html */
+#cas_burg {
+  width: 35%;
+  border: 0.2em solid #000000;
+  float: left;
+  margin: 0 0.25em 0em 0em;
+}
+
+/* TRBL  */
+#logo {
+  width: 6%;
+  margin: 2.5em 0em 0em 1em;
   float: left;
 }
 
-#cas_burg {
-  width: 400px;
-  border: 1em groove #2626ffb2;
+/* TRBL  */
+#article_list {
+  padding: 0.75em 0em 0.1em 1em;
+  clear: both;
+}
+
+/* index html */
+#intro {
+  font-size: large;
+}
+
+/* lists on all html pages */
+ul > li {
+  font-weight: bold;
 }
