@@ -2,16 +2,33 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* h1 and h2 for all html pages */
+/* h1 for all html pages */
 .main_headers {
+  border: 0.1em solid #063970;
   border-radius: 1em;
-  color: #000000;
+  color: #ffffff;
   font-weight: bolder;
   text-align: center;
-  background-image: linear-gradient(45deg, #2626ffb2 25%, #ffc0cb 75%);
+  background-image: linear-gradient(
+    15deg,
+    #ffffff 1%,
+    #021f42 60%,
+    #ffffff 95%
+  );
 }
 
-/* currently affecting index html */
+/* index.html */
+#intro_p {
+  font-size: 1.5em;
+  padding-right: 2em;
+}
+
+h2 {
+  font-size: 1em;
+  text-align: center;
+  margin-top: -0.75em;
+}
+
 .set_margin,
 section {
   margin: 1em;
@@ -20,17 +37,17 @@ section {
 section,
 .main_headers,
 #article_list,
-#intro {
+#intro,
+#placeholder a {
   font-variant: small-caps;
 }
 
 a:visited {
-  color: #f81981;
+  color: #063970;
 }
 
-a:hover,
-a:focus {
-  color: #2626ffb2;
+a:hover {
+  color: #0a0aff8c;
   font-size: 1.25em;
 }
 
@@ -50,14 +67,15 @@ article {
   padding: 1em;
 }
 
+/* Three images on main page */
 .main_images {
   width: 32%;
   border: 0.2em groove #000000;
   border-radius: 0.5em;
 }
 
-/* cascadia html */
-#cas_burg {
+/* article photos*/
+.art_photos {
   width: 35%;
   border: 0.2em solid #000000;
   float: left;
@@ -73,16 +91,84 @@ article {
 
 /* TRBL  */
 #article_list {
-  padding: 0.75em 0em 0.1em 1em;
+  padding: 2em 0em 0.1em 1em;
   clear: both;
+  text-align: center;
 }
 
 /* index html */
 #intro {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.placeholder {
+  text-align: center;
+  border: 0.25em solid #021f42;
+  border-radius: 1em;
+  width: 15%;
+  margin: auto;
+  text-decoration: none;
+  background-image: linear-gradient(
+    15deg,
+    #ffffff 1%,
+    #021f42 60%,
+    #ffffff 95%
+  );
+}
+
+.placeholder a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.1em;
+}
+
+/* NAVIGATION MENU FORMATTING */
+
+/* #nav_menu { 
+  margin: auto;
+}*/
+
+#nav_menu ul {
+  list-style-type: none;
   font-size: large;
 }
 
-/* lists on all html pages */
-ul > li {
+#nav_menu ul li a {
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 1em 0em;
+  text-decoration: none;
+  background-image: linear-gradient(
+    15deg,
+    #ffffff 1%,
+    #021f42 60%,
+    #ffffff 95%
+  );
+  color: #ffffff;
   font-weight: bold;
+  border: 0.1em solid #000000;
+}
+
+/* MEDIA QUERIES  */
+@media only screen and (max-width: 660px) {
+  article {
+    column-count: 2;
+    column-gap: 35px;
+    column-rule: 0.1em solid #040491;
+    border: 0.01em dotted #000000;
+    padding: 1em;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  footer {
+    padding: 2em 0em 0em 0em;
+    font-size: 1em;
+    font-weight: 400;
+    float: left;
+  }
 }
