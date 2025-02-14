@@ -3,11 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles.css" />
     <title>Brownells</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#nav_menu").slicknav({ prependTo: "#mobile_menu" });
+      });
+    </script>
   </head>
   <body>
     <section class="small_cap">
+      <nav id="mobile_menu"></nav>
       <nav id="nav_menu">
         <ul>
           <li><a href="../index.html">Homepage</a></li>
@@ -29,7 +40,7 @@
       <h1 class="main_headers small_cap">Brownells</h1>
       <h2><em>125 N Washington Ave, Newport, WA 99156</em></h2>
     </header>
-    
+
     <img class="art_photos" src="../images/shrimp.JPG" alt="shrimp" />
 
     <!-- media query applied -->
