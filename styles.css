@@ -172,7 +172,7 @@ article {
   }
 }
 
-@media only screen and (max-width: 942px) {
+@media only screen and (max-width: 1145px) {
   #nav_menu ul li {
     float: inline-block;
     margin: 0.15em;
