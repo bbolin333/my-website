@@ -4,17 +4,11 @@
 
 /* h1 for all html pages */
 .main_headers {
-  border: 0.1em solid #063970;
-  border-radius: 1em;
-  color: #ffffff;
+  border: 0.15em solid #000000;
+  color: white;
   font-weight: bolder;
   text-align: center;
-  background-image: linear-gradient(
-    15deg,
-    #ffffff 1%,
-    #021f42 60%,
-    #ffffff 95%
-  );
+  background-image: linear-gradient(15deg, #ffffff 1%, black 60%, white 95%);
 }
 
 /* index.html */
@@ -39,12 +33,11 @@ section {
 }
 
 a:visited {
-  color: #063970;
+  color: #000000;
 }
 
 a:hover {
-  color: #0a0aff8c;
-  font-size: 1.1em;
+  font-size: 0.75em;
 }
 
 /* TRBL */
@@ -58,7 +51,7 @@ footer {
 article {
   column-count: 3;
   column-gap: 35px;
-  column-rule: 0.1em solid #040491;
+  column-rule: 0.1em solid #000000;
   border: 0.01em dotted #000000;
   padding: 1em;
 }
@@ -98,17 +91,12 @@ article {
 
 .placeholder {
   text-align: center;
-  border: 0.25em solid #021f42;
+  border: 0.25em groove #000000;
   border-radius: 1em;
   width: 15%;
   margin-top: 3em;
   text-decoration: none;
-  background-image: linear-gradient(
-    15deg,
-    #ffffff 1%,
-    #021f42 60%,
-    #ffffff 95%
-  );
+  background-color: #000000;
 }
 
 .placeholder a {
@@ -122,10 +110,9 @@ article {
 /* NAVIGATION MENU FORMATTING */
 
 #nav_menu ul {
+  list-style-type: none;
   padding: 0;
   margin: 0;
-  list-style-type: none;
-  font-size: 1.5em;
   width: 100%;
   text-align: center;
 }
@@ -138,24 +125,27 @@ article {
 
 #nav_menu ul li a {
   display: block;
-  /* margin-bottom: 0.20em; */
-  padding: 0.25em 1.5em;
+  padding: 0.5em 1.2em;
   text-decoration: none;
-  background-image: linear-gradient(
-    15deg,
-    #ffffff 1%,
-    #021f42 60%,
-    #ffffff 95%
-  );
+  background-color: #000000;
   color: #ffffff;
   font-weight: bold;
-  border: 0.1em solid #000000;
 }
 
 /* MEDIA QUERIES  */
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 1145px) {
   article {
     column-count: 2;
+    column-gap: 35px;
+    column-rule: 0.1em solid #040491;
+    border: 0.01em dotted #000000;
+    padding: 1em;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  article {
+    column-count: 1;
     column-gap: 35px;
     column-rule: 0.1em solid #040491;
     border: 0.01em dotted #000000;
