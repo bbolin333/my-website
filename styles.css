@@ -34,11 +34,7 @@ section {
   margin: 1em;
 }
 
-section,
-.main_headers,
-#article_list,
-#intro,
-#placeholder a {
+.small_cap {
   font-variant: small-caps;
 }
 
@@ -48,7 +44,7 @@ a:visited {
 
 a:hover {
   color: #0a0aff8c;
-  font-size: 1.25em;
+  font-size: 1.1em;
 }
 
 /* TRBL */
@@ -67,6 +63,11 @@ article {
   padding: 1em;
 }
 
+.main_img_section {
+  clear: both;
+  padding-top: 2em;
+  text-align: center;
+}
 /* Three images on main page */
 .main_images {
   width: 32%;
@@ -89,13 +90,6 @@ article {
   float: left;
 }
 
-/* TRBL  */
-#article_list {
-  padding: 2em 0em 0.1em 1em;
-  clear: both;
-  text-align: center;
-}
-
 /* index html */
 #intro {
   font-size: 1.5em;
@@ -107,7 +101,7 @@ article {
   border: 0.25em solid #021f42;
   border-radius: 1em;
   width: 15%;
-  margin: auto;
+  margin-top: 3em;
   text-decoration: none;
   background-image: linear-gradient(
     15deg,
@@ -122,25 +116,30 @@ article {
   text-decoration: none;
   font-size: 1em;
   font-weight: bold;
-  padding: 0.1em;
+  padding: 0.5em;
 }
 
 /* NAVIGATION MENU FORMATTING */
 
-/* #nav_menu { 
-  margin: auto;
-}*/
-
 #nav_menu ul {
+  padding: 0;
+  margin: 0;
   list-style-type: none;
-  font-size: large;
+  font-size: 1.5em;
+  width: 100%;
+  text-align: center;
+}
+
+#nav_menu ul li {
+  display: inline-block;
+  margin: 0em;
+  padding: 0em;
 }
 
 #nav_menu ul li a {
-  text-align: center;
   display: block;
-  width: 100%;
-  padding: 1em 0em;
+  margin-bottom: 0.25em;
+  padding: 0.25em 3em;
   text-decoration: none;
   background-image: linear-gradient(
     15deg,
@@ -170,5 +169,13 @@ article {
     font-size: 1em;
     font-weight: 400;
     float: left;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #nav_menu ul li {
+    float: inline-block;
+    margin: 0.15em;
+    padding: 0em;
   }
 }
