@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TasteBudz Blog</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet"
+    <link rel="stylesheet" href="cssSheets/nav.css" />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css"
     />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -15,12 +17,15 @@
         $("#nav_menu").slicknav({ prependTo: "#mobile_menu" });
       });
     </script>
+    <link rel="stylesheet" href="cssSheets/mediaQuery.css" />
   </head>
   <body>
+    <section></section>
     <header>
       <h1 class="main_headers small_cap">Taste Budz Restaurant Reviews</h1>
     </header>
     <section class="small_cap">
+      <!-- Applied flex component -->
       <nav id="mobile_menu"></nav>
       <nav id="nav_menu">
         <ul>
@@ -35,16 +40,17 @@
               More...
             </a>
           </li>
+          <li><a href="html-links/contact.html">Contact Us</a></li>
         </ul>
       </nav>
     </section>
 
-    <section class="main_img_section small_cap">
+    <!-- media query grid applied -->
+    <section class="main_img_section small_cap grid_container">
       <img class="main_images" src="images/brownells.jpg" alt="burrata" />
       <img class="main_images" src="images/thai.jpg" alt="thai food" />
       <img class="main_images" src="images/brownie.jpg" alt="brownie" />
     </section>
-
     <main>
       <h3 id="intro" class="small_cap set_margin">
         What The Heck Is Taste Budz?
@@ -61,18 +67,6 @@
       </p>
     </main>
 
-    <img id="logo" src="images/tastebudzLogo.jpg" alt="Taste Budz Logo" />
-
-    <!-- applied media query -->
-    <footer>
-      <a
-        href="https://www.facebook.com/profile.php?id=100086829765132"
-        target="_blank"
-      >
-        Facebook
-      </a>
-      <address>tastebudz33@gmail.com</address>
-      &copy; TasteBudz Inc. <br />
-    </footer>
+    <footer>&copy; TasteBudz Inc. <br /></footer>
   </body>
 </html>

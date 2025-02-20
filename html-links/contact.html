@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../cssSheets/nav.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#nav_menu").slicknav({ prependTo: "#mobile_menu" });
+      });
+    </script>
+    <link rel="stylesheet" href="../cssSheets/mediaQuery.css" />
+  </head>
+  <body>
+    <section class="small_cap">
+      <nav id="mobile_menu"></nav>
+      <nav id="nav_menu">
+        <ul>
+          <li><a href="../index.html">Homepage</a></li>
+          <li><a href="cascadia.html">Cascadia</a></li>
+          <li><a href="brownells.html">Brownells</a></li>
+          <li>
+            <a href="lakehouse.html">Lakehouse Bar & Grill</a>
+          </li>
+          <li>
+            <!-- External Link listed in NAV menu -->
+            <a href="https://huckleberrypress.com/?s=Taste" target="_blank">
+              More...
+            </a>
+          </li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </section>
+    <header>
+      <h1 class="main_headers small_cap">Interested In Being Featured?</h1>
+    </header>
+
+    <section class="contact">
+      <img
+        id="contact_logo"
+        class="contact"
+        src="../images/tastebudzLogo.jpg"
+        alt="Taste Budz Logo"
+      />
+      <!-- applied flex component -->
+      <p>
+        We love hearing from our community, especially when it comes to your
+        dining experiences! Whether you have questions, feedback, or want to
+        share a restaurant, feel free to reach out to us through any of the
+        following methods: <br />
+        <a href="mailto:tastebudz33@gmail.com">Email</a>
+        <br />
+        <a
+          href="https://www.facebook.com/profile.php?id=100086829765132"
+          target="_blank"
+        >
+          Facebook
+        </a>
+      </p>
+    </section>
+  </body>
+</html>

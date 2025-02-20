@@ -1,0 +1,32 @@
+/* NAVIGATION MENU FORMATTING */
+
+#nav_menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+#nav_menu ul li {
+  margin: 0em;
+  padding: 0em;
+  flex-basis: 16.66%;
+}
+
+#nav_menu ul li a {
+  border: 0.05em dashed #ffffff;
+  display: block;
+  padding: 0.5em 1.2em;
+  text-decoration: none;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#mobile_menu {
+  display: none;
+}
