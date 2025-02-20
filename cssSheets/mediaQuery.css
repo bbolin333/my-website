@@ -5,9 +5,7 @@
     padding-top: 3em;
     font-size: 1.5em;
     font-weight: 400;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    text-align: left;
   }
   article {
     column-count: 1;
@@ -24,16 +22,6 @@
   }
 }
 
-@media only screen and (max-width: 1145px) {
-  article {
-    column-count: 2;
-    column-gap: 35px;
-    column-rule: 0.1em solid #000000;
-    border: 0.01em dotted #000000;
-    padding: 1em;
-  }
-}
-
 @media only screen and (max-width: 1330px) {
   #nav_menu {
     display: none;
@@ -43,18 +31,15 @@
     display: block;
   }
 }
-
-@media only screen and (max-width: 899px) {
-  footer {
-    padding-top: 2em;
-    font-size: 1.5em;
-    font-weight: 400;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+@media only screen and (max-width: 1145px) {
+  article {
+    column-count: 2;
+    column-gap: 35px;
+    column-rule: 0.1em solid #000000;
+    border: 0.01em dotted #000000;
+    padding: 1em;
   }
 }
-
 @media only screen and (max-width: 750px) {
   .art_photos {
     width: 100%;
