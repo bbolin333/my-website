@@ -85,4 +85,11 @@
     font-size: 0.5em;
     font-weight: bold;
   }
+
+  .contact {
+    display: flex;
+    font-size: 2em;
+    text-align: left;
+    align-items: flex-start;
+  }
 }

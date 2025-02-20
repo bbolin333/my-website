@@ -113,6 +113,6 @@ article {
 .contact {
   display: flex;
   font-size: 3.25em;
-  text-align: center;
+  text-align: left;
   align-items: flex-start;
 }
