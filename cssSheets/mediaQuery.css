@@ -1,18 +1,13 @@
 /* MEDIA QUERIES  */
 
 @media only screen and (min-width: 2100px) {
-  footer {
-    padding-top: 3em;
-    font-size: 1.5em;
-    font-weight: 400;
-    text-align: left;
-  }
   article {
     column-count: 1;
     column-gap: 35px;
     column-rule: 0.1em solid #000000;
     border: 0.01em dotted #000000;
     padding: 1em;
+    font-size: 1.5em;
   }
 }
 
@@ -89,7 +84,7 @@
   .contact {
     display: flex;
     font-size: 2em;
-    text-align: left;
-    align-items: flex-start;
+    text-align: center;
+    align-items: center;
   }
 }
