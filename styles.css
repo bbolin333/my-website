@@ -18,12 +18,12 @@
 
 /* index.html */
 #intro_p {
-  font-size: 1.25em;
+  font-size: 1.15em;
 }
 
 /* index html */
 #intro {
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: bolder;
 }
 
@@ -38,7 +38,6 @@ h2 {
 }
 
 .set_margin,
-footer,
 main,
 body {
   margin: 1em;
@@ -58,7 +57,7 @@ a:hover {
 
 /* TRBL */
 footer {
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 400;
   text-align: left;
 }
