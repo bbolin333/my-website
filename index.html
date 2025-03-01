@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TasteBudz Blog</title>
+    <link rel="icon" href="images/logo.ico" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="cssSheets/nav.css" />
     <link
@@ -17,12 +18,28 @@
         $("#nav_menu").slicknav({ prependTo: "#mobile_menu" });
       });
     </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chango&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="cssSheets/mediaQuery.css" />
   </head>
   <body>
     <section></section>
     <header>
-      <h1 class="main_headers small_cap">Taste Budz Restaurant Reviews</h1>
+      <h1 id="first-header" class="index_header small_cap">
+        Taste Budz <br />
+        Restaurant <br />
+        Reviews
+      </h1>
     </header>
     <section class="small_cap">
       <!-- Applied flex component -->
@@ -33,7 +50,7 @@
           <li><a href="html-links/cascadia.html">Cascadia</a></li>
           <li><a href="html-links/brownells.html">Brownells</a></li>
           <li>
-            <a href="lakehouse.html">Lakehouse Bar &amp; Grill</a>
+            <a href="html-links/lakehouse.html">Lakehouse Bar &amp; Grill</a>
           </li>
           <li>
             <a href="https://huckleberrypress.com/?s=Taste" target="_blank">
@@ -43,13 +60,6 @@
           <li><a href="html-links/contact.html">Contact Us</a></li>
         </ul>
       </nav>
-    </section>
-
-    <!-- media query grid applied -->
-    <section class="main_img_section small_cap grid_container">
-      <img class="main_images" src="images/brownells.jpg" alt="burrata" />
-      <img class="main_images" src="images/thai.jpg" alt="thai food" />
-      <img class="main_images" src="images/brownie.jpg" alt="brownie" />
     </section>
     <main>
       <h3 id="intro" class="small_cap set_margin">
@@ -66,7 +76,12 @@
         <br />
       </p>
     </main>
-
+    <!-- media query grid applied -->
+    <section class="main_img_section small_cap grid_container">
+      <img class="main_images" src="images/brownells.jpg" alt="burrata" />
+      <img class="main_images" src="images/thai.jpg" alt="thai food" />
+      <img class="main_images" src="images/brownie.jpg" alt="brownie" />
+    </section>
     <footer>&copy; TasteBudz Inc. <br /></footer>
   </body>
 </html>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
+    <link rel="icon" href="../images/logo.ico" />
     <link rel="stylesheet" href="../styles.css" />
     <link rel="stylesheet" href="../cssSheets/nav.css" />
     <link
@@ -17,6 +18,16 @@
         $("#nav_menu").slicknav({ prependTo: "#mobile_menu" });
       });
     </script>
+    <script
+      src="https://kit.fontawesome.com/9ccad3c97f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../cssSheets/mediaQuery.css" />
   </head>
   <body>
@@ -51,20 +62,18 @@
         dining experiences! Whether you have questions, feedback, or want to
         share a restaurant, feel free to reach out to us through any of the
         following methods: <br />
-        <a href="mailto:tastebudz33@gmail.com">Email</a>
+
+        <a class="icons" href="mailto:tastebudz33@gmail.com">
+          Email&nbsp;<i class="fa-solid fa-envelope"></i>
+        </a>
         <br />
         <a
+          class="icons"
           href="https://www.facebook.com/profile.php?id=100086829765132"
           target="_blank"
         >
-          Facebook
+          Facebook&nbsp;<i class="fa-solid fa-thumbs-up"></i>
         </a>
-        <img
-          id="contact_logo"
-          class="contact"
-          src="../images/tastebudzLogo.jpg"
-          alt="Taste Budz Logo"
-        />
       </p>
     </section>
   </body>

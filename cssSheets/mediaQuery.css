@@ -25,6 +25,14 @@
   #mobile_menu {
     display: block;
   }
+  .index_header {
+    background-image: url(../images/pavilion2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -25px center;
+    height: 3em;
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 1145px) {
   article {
@@ -35,6 +43,7 @@
     padding: 1em;
   }
 }
+
 @media only screen and (max-width: 750px) {
   .art_photos {
     width: 100%;
@@ -62,6 +71,15 @@
     border: 0.2em groove #000000;
     border-radius: 0.5em;
     margin: 0em;
+  }
+
+  .index_header {
+    background-image: url(../images/pavilion2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -25px center;
+    height: 2em;
+    width: 100%;
   }
 }
 
