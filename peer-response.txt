@@ -1,0 +1,34 @@
+TIM: 
+Just about everything on your page is in black and white, 
+I'm not exactly sure if that is on purpose or not. I can see that being a beneficial thing where having the photos and the descriptions of the food 
+being the focus. But when looking at the three food reviews you have a lot of white space on the page that you might be able to fix with a nice 
+gradient, even doing it in a subtle black and white background would probably make it pleasing to the eye.
+
+RESPONSE:
+I personally don't care for the look of a gradient or a lot of color with my style but I made a gallery page with more photos to add color.
+
+
+TIM:
+You have a lot of really good information on the three establishments you are reviewing for someone who wants to take the time to go through that 
+information. However, for the person looking for a short rating on where they might choose to eat that night, they may not want to spend a lot of 
+time looking over an entire review you could also add an additional star rating option where you have visible image of stars rating for the
+person with not as much time to read the entire review.
+
+RESPONSE:
+I totally understand this so I also added the restaurant's website links to the pictures in the gallery so people can check out places 
+based on photos alone. The title of the restaurant pops up when they hover over the image
+
+TIM:
+You could also give yourself a footer that has your e-mail and Facebook links in it on each one of your pages so that they're easy to see 
+and accessible.
+
+RESPONSE:
+I added a footer on all pages with this information, except on the contact page it is only the tastebudz inc
+
+CHRISTIAN:
+3. i really wouldn't call this an issue, but for a lack of other complaints i would say maybe have the navbar stay at the top for all pages
+( align home page), or have them in matching positions(?)
+
+RESPONSE:
+I moved the nav bar above the header on the main page
+

@@ -11,13 +11,7 @@
   }
 }
 
-@media only screen and (min-width: 1300px) {
-  .placeholder {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 1330px) {
+@media only screen and (max-width: 1520px) {
   #nav_menu {
     display: none;
   }
@@ -25,6 +19,9 @@
   #mobile_menu {
     display: block;
   }
+}
+
+@media only screen and (max-width: 1330px) {
   .index_header {
     background-image: url(../images/pavilion2.JPG);
     background-repeat: no-repeat;
@@ -34,13 +31,37 @@
     width: 100%;
   }
 }
-@media only screen and (max-width: 1145px) {
+
+@media only screen and (max-width: 1150px) {
   article {
     column-count: 2;
     column-gap: 35px;
     column-rule: 0.1em solid #000000;
     border: 0.01em dotted #000000;
     padding: 1em;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  main h3 {
+    text-align: left;
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5em;
+  }
+  main {
+    column-count: 1;
+    padding: 1.25em;
+    font-size: 1em;
+    border: 0.2em solid #000000;
+  }
+
+  #BandZ {
+    width: 35%;
+    border: 0.2em solid #000000;
+    float: left;
+    margin: 0em 1em 1em 0em;
   }
 }
 
@@ -59,20 +80,6 @@
     padding: 1em;
   }
 
-  .grid_container {
-    display: grid;
-    grid-template: 3fr / 1fr;
-    grid-gap: 15px;
-    justify-items: center;
-  }
-
-  .main_images {
-    width: 75%;
-    border: 0.2em groove #000000;
-    border-radius: 0.5em;
-    margin: 0em;
-  }
-
   .index_header {
     background-image: url(../images/pavilion2.JPG);
     background-repeat: no-repeat;
@@ -84,26 +91,55 @@
 }
 
 @media only screen and (max-width: 560px) {
-  .placeholder {
-    text-align: center;
-    border: 0.25em groove #000000;
-    border-radius: 1em;
-    width: 20%;
-    text-decoration: none;
-    background-color: #000000;
-  }
-
-  .placeholder a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 0.5em;
-    font-weight: bold;
-  }
-
   .contact {
-    display: flex;
-    font-size: 2em;
-    text-align: center;
-    align-items: center;
+    font-size: 2.25em;
+    padding: 0.5em;
+    border: 0.15em solid #000000;
+    text-align: left;
+  }
+
+  .contact a {
+    font-size: 0.75em;
+    border: none;
+    color: #1e00ff;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+  }
+  .contact a:hover {
+    font-size: 1em;
+    background-color: #f0f0f0;
+  }
+
+  .gallery_grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.5em;
+    justify-items: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  footer,
+  footer a {
+    font-size: 0.75em;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  main h3 {
+    clear: both;
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5em;
+  }
+  .gallery_grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5em;
+    justify-items: center;
   }
 }
