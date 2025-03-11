@@ -11,6 +11,7 @@
   }
 }
 
+/* SWITCHES TO SLICK NAV */
 @media only screen and (max-width: 1520px) {
   #nav_menu {
     display: none;
@@ -40,28 +41,12 @@
     border: 0.01em dotted #000000;
     padding: 1em;
   }
-}
-
-@media only screen and (max-width: 900px) {
-  main h3 {
-    text-align: left;
-    font-family: "Rubik Dirt", system-ui;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 1.5em;
-  }
-  main {
-    column-count: 1;
-    padding: 1.25em;
-    font-size: 1em;
-    border: 0.2em solid #000000;
-  }
 
   #BandZ {
-    width: 35%;
+    margin-right: 1em;
+    width: 22%;
     border: 0.2em solid #000000;
     float: left;
-    margin: 0em 1em 1em 0em;
   }
 }
 
@@ -88,6 +73,12 @@
     height: 2em;
     width: 100%;
   }
+  #BandZ {
+    margin-right: 1em;
+    width: 27%;
+    border: 0.2em solid #000000;
+    float: left;
+  }
 }
 
 @media only screen and (max-width: 560px) {
@@ -101,7 +92,6 @@
   .contact a {
     font-size: 0.75em;
     border: none;
-    color: #1e00ff;
     text-align: left;
     text-decoration: none;
     display: block;
@@ -118,6 +108,38 @@
     grid-gap: 0.5em;
     justify-items: center;
   }
+  #BandZ {
+    margin-right: 1em;
+    width: 32%;
+    border: 0.2em solid #000000;
+    float: left;
+  }
+}
+
+/* INDEX - WHAT THE HECK IS TASTE BUDZ */
+@media only screen and (max-width: 520px) {
+  #intro_header {
+    text-align: center;
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2em;
+    margin: 0.5em;
+  }
+  main {
+    column-count: 1;
+    font-size: 1.25em;
+    border: 0.2em solid #000000;
+    line-height: 2em;
+  }
+
+  #BandZ {
+    height: 30%;
+    margin-bottom: 0.75em;
+    padding-left: 0em;
+    width: 98%;
+    border: 0.2em groove #000000;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -128,13 +150,6 @@
 }
 
 @media only screen and (max-width: 365px) {
-  main h3 {
-    clear: both;
-    font-family: "Rubik Dirt", system-ui;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 1.5em;
-  }
   .gallery_grid {
     display: grid;
     grid-template-rows: auto;

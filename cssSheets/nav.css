@@ -15,7 +15,7 @@
   margin: 0em;
   padding: 0em;
   flex-basis: 100%;
-  font-size: .90em;
+  font-size: 0.9em;
 }
 
 #nav_menu ul li a {
@@ -26,7 +26,6 @@
   background-color: #000000;
   color: #ffffff;
   font-weight: bold;
-  
 }
 
 #mobile_menu {
