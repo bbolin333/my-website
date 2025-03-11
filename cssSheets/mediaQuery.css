@@ -162,7 +162,7 @@
   }
 }
 
-/* INDEX PAGE - WHAT THE HECK IS TASTE BUDZ */
+/* INDEX PAGE (what the heck is taste budz section)*/
 @media only screen and (max-width: 520px) {
   #intro_header {
     text-align: center;
@@ -196,6 +196,7 @@
   }
 }
 
+/* Miscellaneous (for V-small displays) */
 @media only screen and (max-width: 365px) {
   .gallery_grid {
     display: grid;
