@@ -7,6 +7,9 @@
     <link rel="icon" href="../images/logo.ico" />
     <link rel="stylesheet" href="../styles.css" />
     <link rel="stylesheet" href="../cssSheets/nav.css" />
+    <link rel="stylesheet" href="../cssSheets/mediaQuery.css" />
+    <!-- EXTERNAL SCRIPTS/STYLES BELOW-->
+    <!-- SLICK NAV -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css"
@@ -18,18 +21,20 @@
         $("#nav_menu").slicknav({ prependTo: "#mobile_menu" });
       });
     </script>
+    <!-- ICON KIT(fontawesome) -->
     <script
       src="https://kit.fontawesome.com/9ccad3c97f.js"
       crossorigin="anonymous"
     ></script>
+    <!-- FONT (Google) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../cssSheets/mediaQuery.css" />
   </head>
+
   <body>
     <section class="small_cap">
       <nav id="mobile_menu"></nav>
@@ -42,7 +47,6 @@
             <a href="lakehouse.html">Lakehouse Bar &amp; Grill</a>
           </li>
           <li>
-            <!-- External Link listed in NAV menu -->
             <a href="https://huckleberrypress.com/?s=Taste" target="_blank">
               More...
             </a>
@@ -52,12 +56,12 @@
         </ul>
       </nav>
     </section>
+
     <header>
-      <h1 class="main_headers small_cap">Interested In Being Featured?</h1>
+      <h1 class="main_headers small_cap">Contact Us &amp; Subscribe</h1>
     </header>
 
     <section class="contact">
-      <h3 class="small_cap">Contact Us &amp; Subscribe</h3>
       <p>
         We love hearing from our community, especially when it comes to your
         dining experiences! Whether you have questions, feedback, or want to
@@ -69,21 +73,24 @@
         </a>
 
         <a
+          class="contact"
           href="https://www.facebook.com/profile.php?id=100086829765132"
           target="_blank"
-          class="contact"
         >
           Facebook&nbsp;<i class="fa-solid fa-thumbs-up"></i>
         </a>
       </p>
+
       <!-- SUBSCRIBE FORM -->
       <form id="email_form" actions="subsribe.php" method="post">
         <p>Enter Your Email Address to Subscribe to our Newsletter:</p>
-        <p>Email: <input type="text" id="email" /></p>
-
-        <p><input type="submit" id="submit" value="subsribe" /></p>
+        <p>
+          Email: <input type="text" id="email" />
+          <input type="submit" id="submit" value="subscribe" />
+        </p>
       </form>
     </section>
+
     <footer>
       <i class="fa-solid fa-utensils"></i>
       &copy; TasteBudz Inc.
