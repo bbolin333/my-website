@@ -162,7 +162,7 @@
   }
 }
 
-/* INDEX PAGE (what the heck is taste budz section)*/
+/*CONTACT & INDEX PAGE */
 @media only screen and (max-width: 520px) {
   #intro_header {
     text-align: center;
@@ -171,13 +171,14 @@
     font-style: normal;
     font-size: 2em;
     margin: 0.5em;
+    line-height: 1em;
   }
 
   main {
     column-count: 1;
     font-size: 1.25em;
     border: 0.2em solid #000000;
-    line-height: 2em;
+    line-height: 1.5em;
   }
 
   #BandZ {
@@ -186,9 +187,22 @@
     width: 98%;
     border: 0.2em groove #000000;
   }
+
+  .contact {
+    font-size: 1.25em;
+    padding: 0.75em;
+    border: 0.15em solid #000000;
+    text-align: left;
+    line-height: 1.5em;
+  }
+
+  .contact a:hover {
+    font-size: 1em;
+    background-color: #f0f0f0;
+  }
 }
 
-/* FOOTER */
+/* FOOTER*/
 @media only screen and (max-width: 400px) {
   footer,
   footer a {
